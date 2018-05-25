@@ -1,0 +1,106 @@
+/*this is the main container  */
+ #grid-container{
+  display: grid;
+  grid-template-areas:
+  'grid1 grid1 grid1'
+  'grid2 grid2 grid3'
+  'grid4 grid5 grid6'
+  'grid7 grid8 grid8';
+  grid-gap: 20px;
+  /* padding: 10px; */
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.item{
+  border: 1px solid white;
+  height: 100px;
+}
+
+.grid1{
+  text-align: center;
+  word-spacing: 50px;
+  grid-area: grid1;
+  /* background-color: green; */
+  width: 100%;
+  background-color: #7c7c7c;
+}
+
+.grid2{
+  grid-area: grid2;
+  height: 140px;
+  padding: 30px 0;
+  /* background-color: blue; */
+}
+
+/*grid 3 contains my personal image  */
+.grid3{
+  grid-area: grid3;
+  background: url('../assets/images/zoet.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  /* background-color: yellow; */
+}
+
+/*image of classmate  */
+.grid4{
+  grid-area: grid4;
+  height: 200px;
+  background: url('../assets/images/omar.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-color: red; */
+}
+
+/*image of classmate  */
+.grid5{
+  grid-area: grid5;
+  background: url('../assets/images/muneer.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px
+  /* background-color: pink; */
+}
+
+/*image of classmate  */
+.grid6{
+  grid-area: grid6;
+  height: 200px;
+  background:url('../assets/images/yaseen.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-color: violet; */
+}
+
+.grid7{
+  grid-area: grid7;
+  height: 300px;
+  background: url('../assets/images/lifechoices_candice.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: grey; */
+}
+
+.grid8{
+  font-weight:400;
+  grid-area: grid8;
+  height: 200px;
+  /* text-align: center; */
+  padding:50px 0;
+}
+
+/* .item{
+  display: block;
+} */
+
+body{
+  border: 3px solid black;
+  padding: 100px;
+  background-color: white;
+  color: black;
+}

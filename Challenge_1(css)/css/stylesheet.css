@@ -1,0 +1,20 @@
+.container , .container_2 , .container_3 , .container_4 , .container_5 , .container_6{
+  background-color: grey;
+}
+
+h1{
+  color: green;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+h2 , h3 , h4 , h5 , h6{
+  background-color: green;
+}
+
+h2 , h3, h4 , h5 , h6{
+  font-style: normal;
+}
+
+p , .p1{
+  font-style: italic;
+}
